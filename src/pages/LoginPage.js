@@ -28,6 +28,7 @@ const LoginPage = () => {
         <input name="username" placeholder="Username" onChange={handleChange} /><br /><br />
         <input name="password" type="password" placeholder="Password" onChange={handleChange} /><br /><br />
         <button type="submit">Login</button>
+        <button type="submit">logout</button>
       </form>
       <p>{msg}</p>
     </div>
